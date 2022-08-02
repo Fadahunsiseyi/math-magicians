@@ -1,4 +1,50 @@
+$answer-div-background: rgb(153, 152, 152);
+
+@mixin gridDisplay() {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid $answer-div-background;
+  }
+  button.operator {
+    background-color: rgb(238, 164, 26);
+  }
+
+  button.number {
+    background-color: #e4dfdf;
+  }
+  button.zero {
+    grid-column: 1 / 3;
+  }
+
 
 .calculator-container {
-    background-color: red;
+    max-width: 500px;
+    margin: 0 auto;
+    .answer-div {
+        background-color: $answer-div-background;
+        text-align: right;
+        color: #fff;
+        padding: 1rem;
+        span {
+            font-size: 1.5rem;
+        }
+    }
+    .first-div,.second-div,.third-div,.fourth-div,.fifth-div {
+        @include gridDisplay
+    }
 }
