@@ -1,5 +1,4 @@
 .nav-container {
-    // background-color: green;
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
@@ -13,7 +12,6 @@
         border: 1px solid blue;
         li {
             list-style-type: none;
-            text-decoration: none !important;
             margin: 0 10px;
             padding: 0 10px;
             border: 1px solid pink;
