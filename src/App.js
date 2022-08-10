@@ -1,11 +1,14 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Calculator />} />
+      </Routes>
+    </>
   );
 }
 
