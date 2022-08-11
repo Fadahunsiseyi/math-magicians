@@ -1,6 +1,16 @@
 import calculate from './calculate';
 
-it('should return an object', () => {
-  const calculateTest = calculate({ total: 0, next: null, operation: null }, 'AC');
-  expect(calculateTest).toStrictEqual({ total: 0, next: null, operation: null });
+describe('calculate', () => {
+  it('should return the sum of two numbers', () => {
+    const result = calculate({
+      total: 0,
+      next: null,
+      operation: null,
+    }, 'AC');
+    expect(result).toEqual({
+      total: 0,
+      next: null,
+      operation: null,
+    });
+  });
 });
