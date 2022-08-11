@@ -1,9 +1,10 @@
 import React from 'react';
+import Quotes from '../components/Quotes';
 
-const Quotes = () => (
+const QuotesPage = () => (
   <div>
-    welcome to the quote page
+    <Quotes />
   </div>
 );
 
-export default Quotes;
+export default QuotesPage;
