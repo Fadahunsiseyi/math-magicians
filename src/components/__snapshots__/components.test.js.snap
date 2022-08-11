@@ -17,3 +17,184 @@ exports[`renders correctly 1`] = `
   </section>
 </div>
 `;
+
+exports[`renders correctly 2`] = `
+<div>
+  <div
+    className="calc-container"
+  >
+    <div
+      className="title"
+    >
+      <h3>
+        Let do some maths!
+      </h3>
+    </div>
+    <div
+      className="calculator-container"
+      onChange={[Function]}
+    >
+      <div
+        className="answer-div"
+      >
+        <span>
+          0
+        </span>
+      </div>
+      <div
+        className="first-div"
+      >
+        <button
+          className="btn clear-all number"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="btn modulus number"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="btn divide operator"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="second-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="btn multiplication operator"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        className="third-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="btn substraction operator"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="fourth-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="btn addition operator"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="fourth-div"
+      >
+        <button
+          className="btn number zero"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="btn period number"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="btn equals-to operator"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
