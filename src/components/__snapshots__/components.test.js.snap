@@ -198,3 +198,27 @@ exports[`renders correctly 2`] = `
   </div>
 </div>
 `;
+
+exports[`renders correctly 3`] = `
+<div>
+  <section
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <p>
+      Mathematics is not about numbers,equations,computations or algorithms: it is also about understanding
+    </p>
+    <p>
+      <strong>
+        — William Paul Thurston
+      </strong>
+    </p>
+  </section>
+</div>
+`;
