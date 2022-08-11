@@ -12,10 +12,6 @@ const Welcome = () => (
       vestibulum sed arcu non. Pretium fusce id velit ut tortor pretium. Mauris nunc congue nisi
       vitae. Sed lectus vestibulum mattis ullamcorper velit. Gravida neque convallis a cras semper.
     </p>
-    {' '}
-    <br />
-    {' '}
-    <br />
     <p>
       Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Aliquam sem fringilla ut
       morbi. In tellus integer feugiat scelerisque varius morbi enim nunc. Arcu ac tortor dignissim

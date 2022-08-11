@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Quotes = () => (
-  <section>
+  <section style={{
+    display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',
+  }}
+  >
     <p>
       Mathematics is not about numbers,equations,computations or algorithms:
       it is also about understanding
