@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <section>
+    <h5
+      className="title"
+    >
+      Welcome to our page
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie at elementum eu facilisis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Velit aliquet sagittis id consectetur purus ut faucibus. Lectus proin nibh nisl condimentum id venenatis a. Commodo ullamcorper a lacus vestibulum sed arcu non. Pretium fusce id velit ut tortor pretium. Mauris nunc congue nisi vitae. Sed lectus vestibulum mattis ullamcorper velit. Gravida neque convallis a cras semper.
+    </p>
+    <p>
+      Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Aliquam sem fringilla ut morbi. In tellus integer feugiat scelerisque varius morbi enim nunc. Arcu ac tortor dignissim convallis aenean et. Sagittis orci a scelerisque purus semper. Commodo quis imperdiet massa tincidunt nunc. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices. Elementum sagittis vitae et leo duis ut diam quam nulla. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Viverra accumsan in nisl nisi. Fusce ut placerat orci nulla. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Venenatis tellus in metus vulputate eu. Purus non enim praesent elementum facilisis leo.
+    </p>
+  </section>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div>
+  <div
+    className="calc-container"
+  >
+    <div
+      className="title"
+    >
+      <h3>
+        Let do some maths!
+      </h3>
+    </div>
+    <div
+      className="calculator-container"
+      onChange={[Function]}
+    >
+      <div
+        className="answer-div"
+      >
+        <span>
+          0
+        </span>
+      </div>
+      <div
+        className="first-div"
+      >
+        <button
+          className="btn clear-all number"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="btn modulus number"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="btn divide operator"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="second-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="btn multiplication operator"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        className="third-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="btn substraction operator"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="fourth-div"
+      >
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="btn number"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="btn addition operator"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="fourth-div"
+      >
+        <button
+          className="btn number zero"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="btn period number"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="btn equals-to operator"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div>
+  <section
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <p>
+      Mathematics is not about numbers,equations,computations or algorithms: it is also about understanding
+    </p>
+    <p>
+      <strong>
+        — William Paul Thurston
+      </strong>
+    </p>
+  </section>
+</div>
+`;

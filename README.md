@@ -60,6 +60,12 @@
 - LinkedIn: [fadahunsi-seyi-samuel](https://www.linkedin.com/in/fadahunsi-seyi-samuel-49191a209/)
 
 
+👤 **Sajjad Rajaee**
+
+- GitHub: [@Sajjad](https://github.com/sajjadrajaee)
+- Twitter: [@twitterhandle](https://twitter.com/sajjadrajaee)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
