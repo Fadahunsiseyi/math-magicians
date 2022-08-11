@@ -22,7 +22,7 @@ const NavBar = () => {
   ];
   return (
     <nav className="nav-container">
-      <h2>Math Magicians</h2>
+      <h1>Math Magicians</h1>
       <ul>
         {links.map((link) => (
           <li key={link.id}>

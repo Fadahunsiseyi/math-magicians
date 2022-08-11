@@ -1,9 +1,9 @@
 import React from 'react';
+import './welcome.css';
 
 const Welcome = () => (
   <section>
-    <h1 className="">Welcome to our page</h1>
-
+    <h5 className="title">Welcome to our page</h5>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Molestie at elementum eu facilisis. Pretium quam vulputate
@@ -12,6 +12,10 @@ const Welcome = () => (
       vestibulum sed arcu non. Pretium fusce id velit ut tortor pretium. Mauris nunc congue nisi
       vitae. Sed lectus vestibulum mattis ullamcorper velit. Gravida neque convallis a cras semper.
     </p>
+    {' '}
+    <br />
+    {' '}
+    <br />
     <p>
       Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Aliquam sem fringilla ut
       morbi. In tellus integer feugiat scelerisque varius morbi enim nunc. Arcu ac tortor dignissim

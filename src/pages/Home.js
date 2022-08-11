@@ -1,9 +1,9 @@
 import React from 'react';
-import Calculator from '../components/Calculator';
+import Welcome from '../components/Welcome';
 
 const Home = () => (
   <div>
-    <Calculator />
+    <Welcome />
   </div>
 );
 

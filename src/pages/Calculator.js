@@ -1,9 +1,10 @@
 import React from 'react';
+import Calculator from '../components/Calculator';
 
-const Calculator = () => (
+const CalculatorPage = () => (
   <div>
-    welcome to the Calculator
+    <Calculator />
   </div>
 );
 
-export default Calculator;
+export default CalculatorPage;
