@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[Live demo](https://github.com/Fadahunsiseyi/math-magicians.git)
+[Live demo netlify](https://bucolic-blancmange-8f1515.netlify.app/)
 
 ## Built With
 
