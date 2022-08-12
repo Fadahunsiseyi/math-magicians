@@ -37,36 +37,26 @@ button {
   }
 }
 
-.calc-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 1rem 3rem;
+.calculator-container {
+  max-width: 500px;
+  margin: 0 auto;
 
-  .title {
-    font-size: 1.6rem;
+  .answer-div {
+    background-color: $answer-div-background;
+    text-align: right;
+    color: #fff;
+    padding: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
   }
 
-  .calculator-container {
-    width: 100%;
-    margin: 0 auto;
-
-    .answer-div {
-      background-color: $answer-div-background;
-      text-align: right;
-      color: #fff;
-      padding: 1rem;
-
-      span {
-        font-size: 1.5rem;
-      }
-    }
-
-    .first-div,
-    .second-div,
-    .third-div,
-    .fourth-div,
-    .fifth-div {
-      @include gridDisplay;
-    }
+  .first-div,
+  .second-div,
+  .third-div,
+  .fourth-div,
+  .fifth-div {
+    @include gridDisplay;
   }
 }

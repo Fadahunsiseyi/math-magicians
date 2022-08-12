@@ -1,13 +1,33 @@
 section {
-  padding: 4rem;
+  padding: 1rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 
   h5 {
-    margin-bottom: 2.4rem;
-    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.7rem;
   }
 
   p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  section {
+    padding: 0.4rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  section {
+    p {
+      font-size: 1.1rem;
+    }
   }
 }

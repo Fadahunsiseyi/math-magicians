@@ -6,8 +6,10 @@
 }
 
 .nav-container .nav-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 800;
   text-decoration: none;
+  color: #8f8989;
 }
 
 .nav-container ul {
@@ -30,9 +32,26 @@
 
 .nav-container ul li a {
   text-decoration: none;
+  color: #8f8989;
 }
 
 .nav-container ul li .active {
   color: #ff4500;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 710px) {
+  .nav-container .nav-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 551px) {
+  .nav-container {
+    padding: 1rem;
+  }
+
+  .nav-container .nav-title {
+    font-size: 1.2rem;
+  }
 }

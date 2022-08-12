@@ -30,37 +30,27 @@ button:hover {
   transform: scale(1.1);
 }
 
-.calc-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 1rem 3rem;
-}
-
-.calc-container .title {
-  font-size: 1.6rem;
-}
-
-.calc-container .calculator-container {
-  width: 100%;
+.calculator-container {
+  max-width: 500px;
   margin: 0 auto;
 }
 
-.calc-container .calculator-container .answer-div {
+.calculator-container .answer-div {
   background-color: #999898;
   text-align: right;
   color: #fff;
   padding: 1rem;
 }
 
-.calc-container .calculator-container .answer-div span {
+.calculator-container .answer-div span {
   font-size: 1.5rem;
 }
 
-.calc-container .calculator-container .first-div,
-.calc-container .calculator-container .second-div,
-.calc-container .calculator-container .third-div,
-.calc-container .calculator-container .fourth-div,
-.calc-container .calculator-container .fifth-div {
+.calculator-container .first-div,
+.calculator-container .second-div,
+.calculator-container .third-div,
+.calculator-container .fourth-div,
+.calculator-container .fifth-div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

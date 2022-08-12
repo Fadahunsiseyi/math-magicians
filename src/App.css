@@ -1,0 +1,9 @@
+body {
+  background: rgba(0, 0, 0, 0.35) url(./img/pexels-photo-5960982.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: #fff;
+  height: 100vh;
+}
