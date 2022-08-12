@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     font-weight: 800;
     text-decoration: none;
-    color: rgb(143, 137, 137);;
+    color: rgb(143, 137, 137);
   }
 
   ul {
@@ -47,9 +47,11 @@
     }
   }
 }
+
 @media only screen and (max-width: 551px) {
   .nav-container {
     padding: 1rem;
+
     .nav-title {
       font-size: 1.2rem;
     }
